@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML Model Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="center-box">
+        <h1 class="heading">Fill in the blank ML Model</h1>
+        <!-- {% if output %} -->
+        <h2 class="output">{{ output | safe }}</h2>
+        <!-- {% endif %} -->
+    </div>
+    <form class="message-form" action="/predict" method="post">
+        <input class="message-input" type="text" name="input_value" placeholder="Enter sentance with black here _______" required>
+        <button class="message-btn" type="submit">⬆️</button>
+    </form>
+</body>
+</html>

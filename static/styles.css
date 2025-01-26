@@ -1,0 +1,53 @@
+body {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-form {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.message-input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.message-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+}
+
+.center-box {
+    text-align: center;
+}
+
+.hightlighted {
+    background-color: #f2ee55;
+    text-decoration: underline;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    font-family: math;
+}
+
+.output {
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.col-red {
+    color: red;
+}
